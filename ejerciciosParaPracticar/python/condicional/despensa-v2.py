@@ -8,8 +8,13 @@ descuentos, se suma los descuentos).
 Desarrolle una solución algorítmica para saber cuento debe pagar el cliente.
 """
 
+
+
+
+
 unidadesDeLeche = int(input("Ingrese la cantidad de unidades de leche que compra el cliente"))
 esJubiado = int(input("Ingrese 0 si el cliente no es jubilado, cualquier otro numero si el cliente es Jubilado"))
+
 
 montoParcial = unidadesDeLeche * 1000
 print(f"unidadesDeLeche {unidadesDeLeche} esJubiado {esJubiado}")

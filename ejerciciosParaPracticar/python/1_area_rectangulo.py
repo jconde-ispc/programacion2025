@@ -11,3 +11,5 @@ area = base * altura
 
 # Mostramos el resultado
 print("El área del rectángulo es:", area)
+print(f"{area=} {base=} {altura=}")#f-strings
+
