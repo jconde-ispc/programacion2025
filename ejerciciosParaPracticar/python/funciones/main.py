@@ -2,13 +2,13 @@ import matematicas
 
 def main():
     #try:
-        a = float(input("Ingrese el primer número: "))
-        b = float(input("Ingrese el segundo número: "))
+        aaa = float(input("Ingrese el primer número: "))
+        bbb = float(input("Ingrese el segundo número: "))
 
-        print(f"Suma: {matematicas.suma(a, b)}")
-        print(f"Resta: {matematicas.resta(a, b)}")
-        print(f"Multiplicación: {matematicas.multiplicacion(a, b)}")
-        print(f"División: {matematicas.division(a, b)}")
+        print(f"Suma: {matematicas.suma(aaa, bbb)}")
+        print(f"Resta: {matematicas.resta(aaa, bbb)}")
+        print(f"Multiplicación: {matematicas.multiplicacion(aaa, bbb)}")
+        print(f"División: {matematicas.division(aaa, bbb)}")
     #except ValueError as e:
     #    print(f"Error: {e}")
 

@@ -12,3 +12,6 @@ def division(a, b):
         return "No se puede dividir por cero."
         #raise ValueError("No se puede dividir por cero.")
     return a / b
+
+if __name__ == "__main__":
+    print(f"Esta es la invocacion a la funcion {suma(3,4)=}")
